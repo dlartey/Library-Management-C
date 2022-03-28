@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/book_management.c
+book_management.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/book_management.h
+loans.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/loans.h
+regOrLogin.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/regOrLogin.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/book_management.h
+stdio.h
+-
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/loans.c
+loans.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/loans.h
+book_management.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/book_management.h
+regOrLogin.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/regOrLogin.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/loans.h
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/main.c
+book_management.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/book_management.h
+loans.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/loans.h
+regOrLogin.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/regOrLogin.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/regOrLogin.c
+regOrLogin.h
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/regOrLogin.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Danie/Documents/UOL CS/Year 1/Semester 2/Programming Project/CW1/regOrLogin.h
+

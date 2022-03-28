@@ -1,0 +1,2 @@
+for accessing the admin menu, the username and password are both admin
+for accessing the student menu the username is dlartey, and the password is lartey

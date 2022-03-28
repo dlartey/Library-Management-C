@@ -1,0 +1,2530 @@
+
+;; Function menu (menu, funcdef_no=14, decl_uid=2344, cgraph_uid=14, symbol_order=17)
+
+
+;; Generating RTL for gimple basic block 2
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Merging block 4 into block 2...
+Merged blocks 2 and 4.
+Merged 2 and 4 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC0") [flags 0x2]  <var_decl 06885f20 *LC0>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:18 -1
+     (nil))
+(call_insn 6 5 7 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:18 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 7 6 8 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC1") [flags 0x2]  <var_decl 06885f78 *LC1>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:19 -1
+     (nil))
+(call_insn 8 7 9 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:19 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 9 8 10 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC2") [flags 0x2]  <var_decl 06885cb8 *LC2>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:20 -1
+     (nil))
+(call_insn 10 9 11 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:20 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 11 10 12 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC3") [flags 0x2]  <var_decl 06885d10 *LC3>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:21 -1
+     (nil))
+(call_insn 12 11 15 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:21 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 15 12 0 2 (const_int 0 [0]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:22 -1
+     (nil))
+
+;; Function searchBook (searchBook, funcdef_no=15, decl_uid=2346, cgraph_uid=15, symbol_order=18)
+
+
+;; Generating RTL for gimple basic block 2
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Merging block 4 into block 2...
+Merged blocks 2 and 4.
+Merged 2 and 4 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC4") [flags 0x2]  <var_decl 06842528 *LC4>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:25 -1
+     (nil))
+(call_insn 6 5 7 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:25 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 7 6 8 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC5") [flags 0x2]  <var_decl 068bc000 *LC5>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:26 -1
+     (nil))
+(call_insn 8 7 9 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:26 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 9 8 10 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC6") [flags 0x2]  <var_decl 068bc058 *LC6>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:27 -1
+     (nil))
+(call_insn 10 9 11 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:27 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 11 10 12 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC7") [flags 0x2]  <var_decl 068bc0b0 *LC7>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:28 -1
+     (nil))
+(call_insn 12 11 13 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:28 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 13 12 14 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC8") [flags 0x2]  <var_decl 068bc108 *LC8>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:29 -1
+     (nil))
+(call_insn 14 13 15 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:29 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 15 14 16 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC9") [flags 0x2]  <var_decl 068bc160 *LC9>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:30 -1
+     (nil))
+(call_insn 16 15 19 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:30 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 19 16 0 2 (const_int 0 [0]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:31 -1
+     (nil))
+
+;; Function menuStudent (menuStudent, funcdef_no=16, decl_uid=2348, cgraph_uid=16, symbol_order=19)
+
+
+;; Generating RTL for gimple basic block 2
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Merging block 4 into block 2...
+Merged blocks 2 and 4.
+Merged 2 and 4 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC0") [flags 0x2]  <var_decl 06885f20 *LC0>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:34 -1
+     (nil))
+(call_insn 6 5 7 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:34 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 7 6 8 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC10") [flags 0x2]  <var_decl 068bc1b8 *LC10>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:35 -1
+     (nil))
+(call_insn 8 7 9 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:35 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 9 8 10 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC11") [flags 0x2]  <var_decl 068bc210 *LC11>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:36 -1
+     (nil))
+(call_insn 10 9 11 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:36 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 11 10 12 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC12") [flags 0x2]  <var_decl 068bc268 *LC12>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:37 -1
+     (nil))
+(call_insn 12 11 13 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:37 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 13 12 14 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC13") [flags 0x2]  <var_decl 068bc2c0 *LC13>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:38 -1
+     (nil))
+(call_insn 14 13 15 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:38 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 15 14 16 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC14") [flags 0x2]  <var_decl 068bc318 *LC14>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:39 -1
+     (nil))
+(call_insn 16 15 19 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:39 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 19 16 0 2 (const_int 0 [0]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:40 -1
+     (nil))
+
+;; Function inputChecker (inputChecker, funcdef_no=17, decl_uid=2351, cgraph_uid=17, symbol_order=20)
+
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+;; Generating RTL for gimple basic block 6
+
+;; Generating RTL for gimple basic block 7
+
+;; Generating RTL for gimple basic block 8
+
+;; Generating RTL for gimple basic block 9
+
+;; Generating RTL for gimple basic block 10
+
+;; Generating RTL for gimple basic block 11
+
+;; Generating RTL for gimple basic block 12
+
+;; Generating RTL for gimple basic block 13
+
+;; Generating RTL for gimple basic block 14
+
+;; Generating RTL for gimple basic block 15
+
+;; Generating RTL for gimple basic block 16
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Redirecting jump 17 from 16 to 17.
+Redirecting jump 25 from 16 to 17.
+Redirecting jump 33 from 16 to 17.
+Redirecting jump 41 from 16 to 17.
+Redirecting jump 49 from 16 to 17.
+Redirecting jump 57 from 16 to 17.
+Merging block 16 into block 15...
+Merged blocks 15 and 16.
+Merged 15 and 16 without moving.
+Removing jump 67.
+Merging block 18 into block 17...
+Merged blocks 17 and 18.
+Merged 17 and 18 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 8 [0x8])) [0  S4 A32])
+        (const_int 10 [0xa])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(insn 6 5 7 2 (parallel [
+            (set (reg:SI 89)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -8 [0xfffffffffffffff8])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(insn 7 6 8 2 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 89)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(insn 8 7 9 2 (set (reg/f:SI 90)
+        (mem/f/c:SI (reg/f:SI 81 virtual-incoming-args) [3 response+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(insn 9 8 10 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 90)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(call_insn 10 9 11 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("strtol") [flags 0x43]  <function_decl 0681f280 strtol>) [0 strtol S1 A8])
+            (const_int 12 [0xc]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (expr_list:SI (use (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                            (const_int 8 [0x8])) [0  S4 A32]))
+                (nil)))))
+(insn 11 10 12 2 (set (reg:SI 91)
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(insn 12 11 13 2 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+        (reg:SI 91)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:45 -1
+     (nil))
+(insn 13 12 14 2 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:46 -1
+     (nil))
+(jump_insn 14 13 15 2 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 19)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:46 -1
+     (nil)
+ -> 19)
+(note 15 14 16 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(insn 16 15 17 4 (set (reg:SI 87 [ _1 ])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:47 -1
+     (nil))
+(jump_insn 17 16 18 4 (set (pc)
+        (label_ref:SI 64)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:47 565 {jump}
+     (nil)
+ -> 64)
+(barrier 18 17 19)
+(code_label 19 18 20 5 5 "" [1 uses])
+(note 20 19 21 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+(insn 21 20 22 5 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:48 -1
+     (nil))
+(jump_insn 22 21 23 5 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 27)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:48 -1
+     (nil)
+ -> 27)
+(note 23 22 24 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+(insn 24 23 25 6 (set (reg:SI 87 [ _1 ])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:49 -1
+     (nil))
+(jump_insn 25 24 26 6 (set (pc)
+        (label_ref:SI 64)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:49 565 {jump}
+     (nil)
+ -> 64)
+(barrier 26 25 27)
+(code_label 27 26 28 7 7 "" [1 uses])
+(note 28 27 29 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+(insn 29 28 30 7 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+            (const_int 2 [0x2]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:50 -1
+     (nil))
+(jump_insn 30 29 31 7 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 35)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:50 -1
+     (nil)
+ -> 35)
+(note 31 30 32 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
+(insn 32 31 33 8 (set (reg:SI 87 [ _1 ])
+        (const_int 2 [0x2])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:51 -1
+     (nil))
+(jump_insn 33 32 34 8 (set (pc)
+        (label_ref:SI 64)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:51 565 {jump}
+     (nil)
+ -> 64)
+(barrier 34 33 35)
+(code_label 35 34 36 9 8 "" [1 uses])
+(note 36 35 37 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
+(insn 37 36 38 9 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+            (const_int 3 [0x3]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:52 -1
+     (nil))
+(jump_insn 38 37 39 9 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 43)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:52 -1
+     (nil)
+ -> 43)
+(note 39 38 40 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
+(insn 40 39 41 10 (set (reg:SI 87 [ _1 ])
+        (const_int 3 [0x3])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:53 -1
+     (nil))
+(jump_insn 41 40 42 10 (set (pc)
+        (label_ref:SI 64)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:53 565 {jump}
+     (nil)
+ -> 64)
+(barrier 42 41 43)
+(code_label 43 42 44 11 9 "" [1 uses])
+(note 44 43 45 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
+(insn 45 44 46 11 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:54 -1
+     (nil))
+(jump_insn 46 45 47 11 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 51)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:54 -1
+     (nil)
+ -> 51)
+(note 47 46 48 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
+(insn 48 47 49 12 (set (reg:SI 87 [ _1 ])
+        (const_int 4 [0x4])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:55 -1
+     (nil))
+(jump_insn 49 48 50 12 (set (pc)
+        (label_ref:SI 64)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:55 565 {jump}
+     (nil)
+ -> 64)
+(barrier 50 49 51)
+(code_label 51 50 52 13 10 "" [1 uses])
+(note 52 51 53 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
+(insn 53 52 54 13 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 checker+0 S4 A32])
+            (const_int 5 [0x5]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:56 -1
+     (nil))
+(jump_insn 54 53 55 13 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 59)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:56 -1
+     (nil)
+ -> 59)
+(note 55 54 56 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
+(insn 56 55 57 14 (set (reg:SI 87 [ _1 ])
+        (const_int 5 [0x5])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:57 -1
+     (nil))
+(jump_insn 57 56 58 14 (set (pc)
+        (label_ref:SI 64)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:57 565 {jump}
+     (nil)
+ -> 64)
+(barrier 58 57 59)
+(code_label 59 58 60 15 11 "" [1 uses])
+(note 60 59 61 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
+(insn 61 60 64 15 (set (reg:SI 87 [ _1 ])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:59 -1
+     (nil))
+(code_label 64 61 65 17 12 "" [6 uses])
+(note 65 64 66 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
+(insn 66 65 70 17 (set (reg:SI 88 [ <retval> ])
+        (reg:SI 87 [ _1 ])) -1
+     (nil))
+(insn 70 66 71 17 (set (reg/i:SI 0 ax)
+        (reg:SI 88 [ <retval> ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:61 -1
+     (nil))
+(insn 71 70 0 17 (use (reg/i:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:61 -1
+     (nil))
+
+;; Function main (main, funcdef_no=18, decl_uid=2357, cgraph_uid=18, symbol_order=21)
+
+Partition 1: size 40 align 1
+	response1	response1
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+;; Generating RTL for gimple basic block 6
+
+;; Generating RTL for gimple basic block 7
+
+;; Generating RTL for gimple basic block 8
+
+;; Generating RTL for gimple basic block 9
+
+;; Generating RTL for gimple basic block 10
+
+;; Generating RTL for gimple basic block 11
+
+;; Generating RTL for gimple basic block 12
+
+;; Generating RTL for gimple basic block 13
+
+;; Generating RTL for gimple basic block 14
+
+;; Generating RTL for gimple basic block 15
+
+;; Generating RTL for gimple basic block 16
+
+;; Generating RTL for gimple basic block 17
+
+;; Generating RTL for gimple basic block 18
+
+;; Generating RTL for gimple basic block 19
+
+;; Generating RTL for gimple basic block 20
+
+;; Generating RTL for gimple basic block 21
+
+;; Generating RTL for gimple basic block 22
+
+;; Generating RTL for gimple basic block 23
+
+;; Generating RTL for gimple basic block 24
+
+;; Generating RTL for gimple basic block 25
+
+;; Generating RTL for gimple basic block 26
+
+;; Generating RTL for gimple basic block 27
+
+;; Generating RTL for gimple basic block 28
+
+;; Generating RTL for gimple basic block 29
+
+;; Generating RTL for gimple basic block 30
+
+;; Generating RTL for gimple basic block 31
+
+;; Generating RTL for gimple basic block 32
+
+;; Generating RTL for gimple basic block 33
+
+;; Generating RTL for gimple basic block 34
+
+;; Generating RTL for gimple basic block 35
+
+;; Generating RTL for gimple basic block 36
+
+;; Generating RTL for gimple basic block 37
+
+;; Generating RTL for gimple basic block 38
+
+;; Generating RTL for gimple basic block 39
+
+;; Generating RTL for gimple basic block 40
+
+;; Generating RTL for gimple basic block 41
+
+;; Generating RTL for gimple basic block 42
+
+;; Generating RTL for gimple basic block 43
+
+;; Generating RTL for gimple basic block 44
+
+;; Generating RTL for gimple basic block 45
+
+;; Generating RTL for gimple basic block 46
+
+;; Generating RTL for gimple basic block 47
+
+;; Generating RTL for gimple basic block 48
+
+;; Generating RTL for gimple basic block 49
+
+;; Generating RTL for gimple basic block 50
+
+;; Generating RTL for gimple basic block 51
+
+;; Generating RTL for gimple basic block 52
+
+;; Generating RTL for gimple basic block 53
+
+;; Generating RTL for gimple basic block 54
+
+;; Generating RTL for gimple basic block 55
+
+;; Generating RTL for gimple basic block 56
+
+;; Generating RTL for gimple basic block 57
+
+;; Generating RTL for gimple basic block 58
+
+;; Generating RTL for gimple basic block 59
+
+;; Generating RTL for gimple basic block 60
+
+;; Generating RTL for gimple basic block 61
+
+;; Generating RTL for gimple basic block 62
+
+;; Generating RTL for gimple basic block 63
+
+;; Generating RTL for gimple basic block 64
+
+;; Generating RTL for gimple basic block 65
+
+;; Generating RTL for gimple basic block 66
+
+;; Generating RTL for gimple basic block 67
+
+;; Generating RTL for gimple basic block 68
+
+;; Generating RTL for gimple basic block 69
+
+;; Generating RTL for gimple basic block 70
+
+;; Generating RTL for gimple basic block 71
+
+;; Generating RTL for gimple basic block 72
+
+;; Generating RTL for gimple basic block 73
+
+;; Generating RTL for gimple basic block 74
+
+;; Generating RTL for gimple basic block 75
+
+;; Generating RTL for gimple basic block 76
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Forwarding edge 40->41 to 71 failed.
+Redirecting jump 281 from 69 to 71.
+Forwarding edge 68->69 to 71 failed.
+Deleted label in block 69.
+Merging block 78 into block 77...
+Merged blocks 77 and 78.
+Merged 77 and 78 without moving.
+Removing jump 525.
+Merging block 79 into block 77...
+Merged blocks 77 and 79.
+Merged 77 and 79 without moving.
+
+
+try_optimize_cfg iteration 2
+
+Forwarding edge 40->41 to 71 failed.
+Forwarding edge 68->69 to 71 failed.
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 4 NOTE_INSN_DELETED)
+(note 4 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 4 3 2 NOTE_INSN_FUNCTION_BEG)
+(call_insn 3 2 6 2 (call (mem:QI (symbol_ref:SI ("__main") [flags 0x43]) [0  S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:63 -1
+     (expr_list:REG_EH_REGION (const_int -2147483648 [0xffffffff80000000])
+        (nil))
+    (nil))
+(insn 6 3 7 2 (set (reg/f:SI 87 [ p.0_26 ])
+        (mem/f/c:SI (symbol_ref:SI ("p")  <var_decl 067ce0b0 p>) [1 p+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:64 -1
+     (nil))
+(insn 7 6 8 2 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 87 [ p.0_26 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:64 -1
+     (nil))
+(call_insn 8 7 9 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("load_books") [flags 0x43]  <function_decl 06809e80 load_books>) [0 load_books S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:64 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(call_insn 9 8 10 2 (call (mem:QI (symbol_ref:SI ("readLoans") [flags 0x43]  <function_decl 06812400 readLoans>) [0 readLoans S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:65 -1
+     (nil)
+    (nil))
+(call_insn 10 9 11 2 (call (mem:QI (symbol_ref:SI ("readUsers") [flags 0x43]  <function_decl 06812680 readUsers>) [0 readUsers S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:66 -1
+     (nil)
+    (nil))
+(insn 11 10 12 2 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 menuChecker+0 S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:67 -1
+     (nil))
+(jump_insn 12 11 13 2 (set (pc)
+        (label_ref 515)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:68 -1
+     (nil)
+ -> 515)
+(barrier 13 12 517)
+(code_label 517 13 14 4 55 "" [1 uses])
+(note 14 517 15 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
+(call_insn 15 14 16 4 (call (mem:QI (symbol_ref:SI ("menu") [flags 0x3]  <function_decl 06832d80 menu>) [0 menu S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:69 -1
+     (nil)
+    (nil))
+(insn 16 15 17 4 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:71 -1
+     (nil))
+(insn 17 16 18 4 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:71 -1
+     (nil))
+(call_insn 18 17 19 4 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:71 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 19 18 20 4 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:72 -1
+     (nil))
+(call_insn 20 19 21 4 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:72 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 21 20 22 4 (set (reg:SI 88 [ _34 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:72 -1
+     (nil))
+(insn 22 21 23 4 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 88 [ _34 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:72 -1
+     (nil))
+(jump_insn 23 22 24 4 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 37)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:72 -1
+     (nil)
+ -> 37)
+(note 24 23 25 5 [bb 5] NOTE_INSN_BASIC_BLOCK)
+(insn 25 24 26 5 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:73 -1
+     (nil))
+(call_insn 26 25 27 5 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("registerDetails") [flags 0x43]  <function_decl 06812600 registerDetails>) [0 registerDetails S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:73 -1
+     (nil)
+    (expr_list:SI (use (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 27 26 28 5 (set (reg:SI 89 [ _36 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:73 -1
+     (nil))
+(insn 28 27 29 5 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 89 [ _36 ])
+            (const_int -1 [0xffffffffffffffff]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:73 -1
+     (nil))
+(jump_insn 29 28 30 5 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 33)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:73 -1
+     (nil)
+ -> 33)
+(note 30 29 31 6 [bb 6] NOTE_INSN_BASIC_BLOCK)
+(insn 31 30 32 6 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC16") [flags 0x2]  <var_decl 068bc420 *LC16>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:74 -1
+     (nil))
+(call_insn 32 31 33 6 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x43]  <function_decl 0675b700 printf>) [0 __builtin_printf S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:74 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 33 32 34 7 16 "" [1 uses])
+(note 34 33 35 7 [bb 7] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 35 34 36 7 (set (pc)
+        (label_ref 515)) -1
+     (nil)
+ -> 515)
+(barrier 36 35 37)
+(code_label 37 36 38 8 15 "" [1 uses])
+(note 38 37 39 8 [bb 8] NOTE_INSN_BASIC_BLOCK)
+(insn 39 38 40 8 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:76 -1
+     (nil))
+(call_insn 40 39 41 8 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:76 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 41 40 42 8 (set (reg:SI 90 [ _39 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:76 -1
+     (nil))
+(insn 42 41 43 8 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 90 [ _39 ])
+            (const_int 2 [0x2]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:76 -1
+     (nil))
+(jump_insn 43 42 44 8 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 489)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:76 -1
+     (nil)
+ -> 489)
+(note 44 43 45 9 [bb 9] NOTE_INSN_BASIC_BLOCK)
+(insn 45 44 46 9 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:77 -1
+     (nil))
+(call_insn 46 45 47 9 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("login") [flags 0x43]  <function_decl 06812580 login>) [0 login S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:77 -1
+     (nil)
+    (expr_list:SI (use (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 47 46 48 9 (set (reg:SI 91 [ _41 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:77 -1
+     (nil))
+(insn 48 47 49 9 (set (reg:CCGOC 17 flags)
+        (compare:CCGOC (reg:SI 91 [ _41 ])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:77 -1
+     (nil))
+(jump_insn 49 48 50 9 (set (pc)
+        (if_then_else (lt (reg:CCGOC 17 flags)
+                (const_int 0 [0]))
+            (label_ref 481)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:77 -1
+     (nil)
+ -> 481)
+(note 50 49 51 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
+(insn 51 50 52 10 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [2 loginMenuChecker+0 S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:78 -1
+     (nil))
+(insn 52 51 53 10 (set (reg:SI 92 [ userIndex.1_43 ])
+        (mem/c:SI (symbol_ref:SI ("userIndex") [flags 0x42]  <var_decl 067ce738 userIndex>) [2 userIndex+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:79 -1
+     (nil))
+(insn 53 52 54 10 (set (reg/f:SI 93 [ _44 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 92 [ userIndex.1_43 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("users") [flags 0x42]  <var_decl 067ce4d0 users>)) [5 users S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:79 -1
+     (nil))
+(insn 54 53 55 10 (set (reg:SI 94 [ _45 ])
+        (mem:SI (plus:SI (reg/f:SI 93 [ _44 ])
+                (const_int 152 [0x98])) [2 _44->librarian+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:79 -1
+     (nil))
+(insn 55 54 56 10 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 94 [ _45 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:79 -1
+     (nil))
+(jump_insn 56 55 57 10 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 284)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:79 -1
+     (nil)
+ -> 284)
+(note 57 56 58 11 [bb 11] NOTE_INSN_BASIC_BLOCK)
+(insn 58 57 59 11 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 menuChecker+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:80 -1
+     (nil))
+(insn 59 58 60 11 (set (reg:SI 95 [ userIndex.2_47 ])
+        (mem/c:SI (symbol_ref:SI ("userIndex") [flags 0x42]  <var_decl 067ce738 userIndex>) [2 userIndex+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:81 -1
+     (nil))
+(insn 60 59 61 11 (set (reg/f:SI 96 [ _48 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 95 [ userIndex.2_47 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("users") [flags 0x42]  <var_decl 067ce4d0 users>)) [5 users S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:81 -1
+     (nil))
+(insn 61 60 62 11 (parallel [
+            (set (reg/f:SI 97 [ _49 ])
+                (plus:SI (reg/f:SI 96 [ _48 ])
+                    (const_int 60 [0x3c])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:81 -1
+     (nil))
+(insn 62 61 63 11 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 97 [ _49 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:81 -1
+     (nil))
+(insn 63 62 64 11 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC17") [flags 0x2]  <var_decl 068bc478 *LC17>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:81 -1
+     (nil))
+(call_insn 64 63 65 11 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x43]  <function_decl 0675b700 printf>) [0 __builtin_printf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:81 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(jump_insn 65 64 66 11 (set (pc)
+        (label_ref 276)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:82 -1
+     (nil)
+ -> 276)
+(barrier 66 65 278)
+(code_label 278 66 67 12 36 "" [1 uses])
+(note 67 278 68 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
+(call_insn 68 67 69 12 (call (mem:QI (symbol_ref:SI ("loginMenu") [flags 0x43]  <function_decl 06812700 loginMenu>) [0 loginMenu S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:84 -1
+     (nil)
+    (nil))
+(insn 69 68 70 12 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:85 -1
+     (nil))
+(insn 70 69 71 12 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:85 -1
+     (nil))
+(call_insn 71 70 72 12 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:85 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 72 71 73 12 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:86 -1
+     (nil))
+(call_insn 73 72 74 12 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:86 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 74 73 75 12 (set (reg:SI 98 [ _54 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:86 -1
+     (nil))
+(insn 75 74 76 12 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 98 [ _54 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:86 -1
+     (nil))
+(jump_insn 76 75 77 12 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 113)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:86 -1
+     (nil)
+ -> 113)
+(note 77 76 78 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
+(insn 78 77 79 13 (set (reg:SI 99 [ userIndex.3_55 ])
+        (mem/c:SI (symbol_ref:SI ("userIndex") [flags 0x42]  <var_decl 067ce738 userIndex>) [2 userIndex+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:87 -1
+     (nil))
+(insn 79 78 80 13 (set (reg/f:SI 100 [ _56 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 99 [ userIndex.3_55 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("users") [flags 0x42]  <var_decl 067ce4d0 users>)) [5 users S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:87 -1
+     (nil))
+(insn 80 79 81 13 (set (reg:SI 101 [ _57 ])
+        (mem:SI (plus:SI (reg/f:SI 100 [ _56 ])
+                (const_int 152 [0x98])) [2 _56->librarian+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:87 -1
+     (nil))
+(insn 81 80 82 13 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 101 [ _57 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:87 -1
+     (nil))
+(jump_insn 82 81 83 13 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 105)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:87 -1
+     (nil)
+ -> 105)
+(note 83 82 84 14 [bb 14] NOTE_INSN_BASIC_BLOCK)
+(insn 84 83 85 14 (set (reg:SI 102 [ numBooks.4_58 ])
+        (mem/c:SI (symbol_ref:SI ("numBooks") [flags 0x42]  <var_decl 067ce1b8 numBooks>) [2 numBooks+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:88 -1
+     (nil))
+(insn 85 84 86 14 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (const_int 20 [0x14])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:88 -1
+     (nil))
+(call_insn 86 85 87 14 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("malloc") [flags 0x43]  <function_decl 0676ef80 malloc>) [0 __builtin_malloc S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:88 -1
+     (expr_list:REG_EH_REGION (const_int 0 [0])
+        (nil))
+    (expr_list:SI (use (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 87 86 88 14 (set (reg/f:SI 143)
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:88 -1
+     (expr_list:REG_NOALIAS (reg/f:SI 143)
+        (nil)))
+(insn 88 87 89 14 (set (reg/f:SI 103 [ _60 ])
+        (reg/f:SI 143)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:88 -1
+     (nil))
+(insn 89 88 90 14 (set (mem/f:SI (plus:SI (mult:SI (reg:SI 102 [ numBooks.4_58 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("books") [flags 0x42]  <var_decl 067ce108 books>)) [7 books S4 A32])
+        (reg/f:SI 103 [ _60 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:88 -1
+     (nil))
+(insn 90 89 91 14 (set (reg:SI 104 [ numBooks.5_62 ])
+        (mem/c:SI (symbol_ref:SI ("numBooks") [flags 0x42]  <var_decl 067ce1b8 numBooks>) [2 numBooks+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 91 90 92 14 (set (reg/f:SI 105 [ _63 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 104 [ numBooks.5_62 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("books") [flags 0x42]  <var_decl 067ce108 books>)) [7 books S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 92 91 93 14 (set (reg:SI 144)
+        (mem:SI (reg/f:SI 105 [ _63 ]) [8 *_63+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 93 92 94 14 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 144)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 94 93 95 14 (set (reg:SI 145)
+        (mem:SI (plus:SI (reg/f:SI 105 [ _63 ])
+                (const_int 4 [0x4])) [8 *_63+4 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 95 94 96 14 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 145)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 96 95 97 14 (set (reg:SI 146)
+        (mem:SI (plus:SI (reg/f:SI 105 [ _63 ])
+                (const_int 8 [0x8])) [8 *_63+8 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 97 96 98 14 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 8 [0x8])) [0  S4 A32])
+        (reg:SI 146)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 98 97 99 14 (set (reg:SI 147)
+        (mem:SI (plus:SI (reg/f:SI 105 [ _63 ])
+                (const_int 12 [0xc])) [8 *_63+12 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 99 98 100 14 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 12 [0xc])) [0  S4 A32])
+        (reg:SI 147)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 100 99 101 14 (set (reg:SI 148)
+        (mem:SI (plus:SI (reg/f:SI 105 [ _63 ])
+                (const_int 16 [0x10])) [8 *_63+16 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(insn 101 100 102 14 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 16 [0x10])) [0  S4 A32])
+        (reg:SI 148)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil))
+(call_insn 102 101 103 14 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("add_book") [flags 0x43]  <function_decl 06809f00 add_book>) [0 add_book S1 A8])
+            (const_int 20 [0x14]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:89 -1
+     (nil)
+    (expr_list:BLK (use (mem:BLK (reg/f:SI 84 virtual-outgoing-args) [0  S20 A32]))
+        (nil)))
+(jump_insn 103 102 104 14 (set (pc)
+        (label_ref 109)) -1
+     (nil)
+ -> 109)
+(barrier 104 103 105)
+(code_label 105 104 106 15 22 "" [1 uses])
+(note 106 105 107 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
+(insn 107 106 108 15 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC18") [flags 0x2]  <var_decl 068bc4d0 *LC18>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:91 -1
+     (nil))
+(call_insn 108 107 109 15 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:91 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 109 108 110 16 23 "" [1 uses])
+(note 110 109 111 16 [bb 16] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 111 110 112 16 (set (pc)
+        (label_ref 276)) -1
+     (nil)
+ -> 276)
+(barrier 112 111 113)
+(code_label 113 112 114 17 21 "" [1 uses])
+(note 114 113 115 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
+(insn 115 114 116 17 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:94 -1
+     (nil))
+(call_insn 116 115 117 17 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:94 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 117 116 118 17 (set (reg:SI 106 [ _67 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:94 -1
+     (nil))
+(insn 118 117 119 17 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 106 [ _67 ])
+            (const_int 2 [0x2]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:94 -1
+     (nil))
+(jump_insn 119 118 120 17 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 151)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:94 -1
+     (nil)
+ -> 151)
+(note 120 119 121 18 [bb 18] NOTE_INSN_BASIC_BLOCK)
+(insn 121 120 122 18 (set (reg:SI 107 [ userIndex.6_68 ])
+        (mem/c:SI (symbol_ref:SI ("userIndex") [flags 0x42]  <var_decl 067ce738 userIndex>) [2 userIndex+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:95 -1
+     (nil))
+(insn 122 121 123 18 (set (reg/f:SI 108 [ _69 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 107 [ userIndex.6_68 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("users") [flags 0x42]  <var_decl 067ce4d0 users>)) [5 users S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:95 -1
+     (nil))
+(insn 123 122 124 18 (set (reg:SI 109 [ _70 ])
+        (mem:SI (plus:SI (reg/f:SI 108 [ _69 ])
+                (const_int 152 [0x98])) [2 _69->librarian+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:95 -1
+     (nil))
+(insn 124 123 125 18 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 109 [ _70 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:95 -1
+     (nil))
+(jump_insn 125 124 126 18 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 143)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:95 -1
+     (nil)
+ -> 143)
+(note 126 125 127 19 [bb 19] NOTE_INSN_BASIC_BLOCK)
+(insn 127 126 128 19 (set (reg:SI 110 [ numBooks.7_71 ])
+        (mem/c:SI (symbol_ref:SI ("numBooks") [flags 0x42]  <var_decl 067ce1b8 numBooks>) [2 numBooks+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 128 127 129 19 (parallel [
+            (set (reg:SI 111 [ _72 ])
+                (plus:SI (reg:SI 110 [ numBooks.7_71 ])
+                    (const_int -1 [0xffffffffffffffff])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 129 128 130 19 (set (reg/f:SI 112 [ _73 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 111 [ _72 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("books") [flags 0x42]  <var_decl 067ce108 books>)) [7 books S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 130 129 131 19 (set (reg:SI 149)
+        (mem:SI (reg/f:SI 112 [ _73 ]) [8 *_73+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 131 130 132 19 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 149)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 132 131 133 19 (set (reg:SI 150)
+        (mem:SI (plus:SI (reg/f:SI 112 [ _73 ])
+                (const_int 4 [0x4])) [8 *_73+4 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 133 132 134 19 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 150)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 134 133 135 19 (set (reg:SI 151)
+        (mem:SI (plus:SI (reg/f:SI 112 [ _73 ])
+                (const_int 8 [0x8])) [8 *_73+8 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 135 134 136 19 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 8 [0x8])) [0  S4 A32])
+        (reg:SI 151)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 136 135 137 19 (set (reg:SI 152)
+        (mem:SI (plus:SI (reg/f:SI 112 [ _73 ])
+                (const_int 12 [0xc])) [8 *_73+12 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 137 136 138 19 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 12 [0xc])) [0  S4 A32])
+        (reg:SI 152)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 138 137 139 19 (set (reg:SI 153)
+        (mem:SI (plus:SI (reg/f:SI 112 [ _73 ])
+                (const_int 16 [0x10])) [8 *_73+16 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(insn 139 138 140 19 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 16 [0x10])) [0  S4 A32])
+        (reg:SI 153)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil))
+(call_insn 140 139 141 19 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("remove_book") [flags 0x43]  <function_decl 06809f80 remove_book>) [0 remove_book S1 A8])
+            (const_int 20 [0x14]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:96 -1
+     (nil)
+    (expr_list:BLK (use (mem:BLK (reg/f:SI 84 virtual-outgoing-args) [0  S20 A32]))
+        (nil)))
+(jump_insn 141 140 142 19 (set (pc)
+        (label_ref 147)) -1
+     (nil)
+ -> 147)
+(barrier 142 141 143)
+(code_label 143 142 144 20 25 "" [1 uses])
+(note 144 143 145 20 [bb 20] NOTE_INSN_BASIC_BLOCK)
+(insn 145 144 146 20 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC18") [flags 0x2]  <var_decl 068bc4d0 *LC18>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:98 -1
+     (nil))
+(call_insn 146 145 147 20 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:98 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 147 146 148 21 26 "" [1 uses])
+(note 148 147 149 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 149 148 150 21 (set (pc)
+        (label_ref 276)) -1
+     (nil)
+ -> 276)
+(barrier 150 149 151)
+(code_label 151 150 152 22 24 "" [1 uses])
+(note 152 151 153 22 [bb 22] NOTE_INSN_BASIC_BLOCK)
+(insn 153 152 154 22 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:101 -1
+     (nil))
+(call_insn 154 153 155 22 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:101 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 155 154 156 22 (set (reg:SI 113 [ _77 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:101 -1
+     (nil))
+(insn 156 155 157 22 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 113 [ _77 ])
+            (const_int 3 [0x3]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:101 -1
+     (nil))
+(jump_insn 157 156 158 22 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 249)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:101 -1
+     (nil)
+ -> 249)
+(note 158 157 159 23 [bb 23] NOTE_INSN_BASIC_BLOCK)
+(insn 159 158 160 23 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [2 optionLoop+0 S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:102 -1
+     (nil))
+(jump_insn 160 159 161 23 (set (pc)
+        (label_ref 241)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:103 -1
+     (nil)
+ -> 241)
+(barrier 161 160 243)
+(code_label 243 161 162 24 34 "" [1 uses])
+(note 162 243 163 24 [bb 24] NOTE_INSN_BASIC_BLOCK)
+(call_insn 163 162 164 24 (call (mem:QI (symbol_ref:SI ("searchBook") [flags 0x3]  <function_decl 06832e00 searchBook>) [0 searchBook S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:104 -1
+     (nil)
+    (nil))
+(insn 164 163 165 24 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 searchYear+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:105 -1
+     (nil))
+(insn 165 164 166 24 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:106 -1
+     (nil))
+(insn 166 165 167 24 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC19") [flags 0x2]  <var_decl 068bc528 *LC19>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:106 -1
+     (nil))
+(call_insn 167 166 168 24 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:106 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 168 167 169 24 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:108 -1
+     (nil))
+(call_insn 169 168 170 24 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:108 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 170 169 171 24 (set (reg:SI 114 [ _83 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:108 -1
+     (nil))
+(insn 171 170 172 24 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 114 [ _83 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:108 -1
+     (nil))
+(jump_insn 172 171 173 24 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 185)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:108 -1
+     (nil)
+ -> 185)
+(note 173 172 174 25 [bb 25] NOTE_INSN_BASIC_BLOCK)
+(insn 174 173 175 25 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC20") [flags 0x2]  <var_decl 068bc580 *LC20>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:109 -1
+     (nil))
+(call_insn 175 174 176 25 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:109 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 176 175 177 25 (parallel [
+            (set (reg:SI 154)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:110 -1
+     (nil))
+(insn 177 176 178 25 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 154)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:110 -1
+     (nil))
+(insn 178 177 179 25 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:110 -1
+     (nil))
+(call_insn 179 178 180 25 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:110 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 180 179 181 25 (parallel [
+            (set (reg:SI 155)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:111 -1
+     (nil))
+(insn 181 180 182 25 (set (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 155)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:111 -1
+     (nil))
+(call_insn 182 181 183 25 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("find_book_by_title") [flags 0x43]  <function_decl 06809d80 find_book_by_title>) [0 find_book_by_title S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:111 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 183 182 184 25 (set (pc)
+        (label_ref 239)) -1
+     (nil)
+ -> 239)
+(barrier 184 183 185)
+(code_label 185 184 186 26 29 "" [1 uses])
+(note 186 185 187 26 [bb 26] NOTE_INSN_BASIC_BLOCK)
+(insn 187 186 188 26 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:113 -1
+     (nil))
+(call_insn 188 187 189 26 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:113 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 189 188 190 26 (set (reg:SI 115 [ _88 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:113 -1
+     (nil))
+(insn 190 189 191 26 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 115 [ _88 ])
+            (const_int 2 [0x2]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:113 -1
+     (nil))
+(jump_insn 191 190 192 26 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 204)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:113 -1
+     (nil)
+ -> 204)
+(note 192 191 193 27 [bb 27] NOTE_INSN_BASIC_BLOCK)
+(insn 193 192 194 27 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC21") [flags 0x2]  <var_decl 068bc5d8 *LC21>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:114 -1
+     (nil))
+(call_insn 194 193 195 27 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:114 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 195 194 196 27 (parallel [
+            (set (reg:SI 156)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:115 -1
+     (nil))
+(insn 196 195 197 27 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 156)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:115 -1
+     (nil))
+(insn 197 196 198 27 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:115 -1
+     (nil))
+(call_insn 198 197 199 27 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:115 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 199 198 200 27 (parallel [
+            (set (reg:SI 157)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:116 -1
+     (nil))
+(insn 200 199 201 27 (set (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 157)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:116 -1
+     (nil))
+(call_insn 201 200 202 27 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("find_book_by_author") [flags 0x43]  <function_decl 06812000 find_book_by_author>) [0 find_book_by_author S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:116 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 202 201 203 27 (set (pc)
+        (label_ref 239)) -1
+     (nil)
+ -> 239)
+(barrier 203 202 204)
+(code_label 204 203 205 28 31 "" [1 uses])
+(note 205 204 206 28 [bb 28] NOTE_INSN_BASIC_BLOCK)
+(insn 206 205 207 28 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:118 -1
+     (nil))
+(call_insn 207 206 208 28 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:118 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 208 207 209 28 (set (reg:SI 116 [ _93 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:118 -1
+     (nil))
+(insn 209 208 210 28 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 116 [ _93 ])
+            (const_int 3 [0x3]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:118 -1
+     (nil))
+(jump_insn 210 209 211 28 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 224)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:118 -1
+     (nil)
+ -> 224)
+(note 211 210 212 29 [bb 29] NOTE_INSN_BASIC_BLOCK)
+(insn 212 211 213 29 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC22") [flags 0x2]  <var_decl 068bc630 *LC22>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:119 -1
+     (nil))
+(call_insn 213 212 214 29 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:119 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 214 213 215 29 (parallel [
+            (set (reg:SI 158)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -20 [0xffffffffffffffec])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:120 -1
+     (nil))
+(insn 215 214 216 29 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 158)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:120 -1
+     (nil))
+(insn 216 215 217 29 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC23") [flags 0x2]  <var_decl 068bc688 *LC23>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:120 -1
+     (nil))
+(call_insn 217 216 218 29 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:120 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 218 217 219 29 (set (reg:SI 117 [ searchYear.8_96 ])
+        (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -20 [0xffffffffffffffec])) [2 searchYear+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:121 -1
+     (nil))
+(insn 219 218 220 29 (set (reg:SI 118 [ searchYear.9_97 ])
+        (reg:SI 117 [ searchYear.8_96 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:121 -1
+     (nil))
+(insn 220 219 221 29 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 118 [ searchYear.9_97 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:121 -1
+     (nil))
+(call_insn 221 220 222 29 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("find_book_by_year") [flags 0x43]  <function_decl 06812080 find_book_by_year>) [0 find_book_by_year S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:121 -1
+     (nil)
+    (expr_list:SI (use (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 222 221 223 29 (set (pc)
+        (label_ref 239)) -1
+     (nil)
+ -> 239)
+(barrier 223 222 224)
+(code_label 224 223 225 30 32 "" [1 uses])
+(note 225 224 226 30 [bb 30] NOTE_INSN_BASIC_BLOCK)
+(insn 226 225 227 30 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:123 -1
+     (nil))
+(call_insn 227 226 228 30 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:123 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 228 227 229 30 (set (reg:SI 119 [ _100 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:123 -1
+     (nil))
+(insn 229 228 230 30 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 119 [ _100 ])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:123 -1
+     (nil))
+(jump_insn 230 229 231 30 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 235)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:123 -1
+     (nil)
+ -> 235)
+(note 231 230 232 31 [bb 31] NOTE_INSN_BASIC_BLOCK)
+(insn 232 231 233 31 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -12 [0xfffffffffffffff4])) [2 optionLoop+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:124 -1
+     (nil))
+(jump_insn 233 232 234 31 (set (pc)
+        (label_ref 239)) -1
+     (nil)
+ -> 239)
+(barrier 234 233 235)
+(code_label 235 234 236 32 33 "" [1 uses])
+(note 236 235 237 32 [bb 32] NOTE_INSN_BASIC_BLOCK)
+(insn 237 236 238 32 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC24") [flags 0x2]  <var_decl 068bc6e0 *LC24>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:126 -1
+     (nil))
+(call_insn 238 237 239 32 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:126 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 239 238 240 33 30 "" [4 uses])
+(note 240 239 241 33 [bb 33] NOTE_INSN_BASIC_BLOCK)
+(code_label 241 240 242 34 28 "" [1 uses])
+(note 242 241 244 34 [bb 34] NOTE_INSN_BASIC_BLOCK)
+(insn 244 242 245 34 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -12 [0xfffffffffffffff4])) [2 optionLoop+0 S4 A32])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:103 -1
+     (nil))
+(jump_insn 245 244 246 34 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 243)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:103 -1
+     (nil)
+ -> 243)
+(note 246 245 247 35 [bb 35] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 247 246 248 35 (set (pc)
+        (label_ref 276)) -1
+     (nil)
+ -> 276)
+(barrier 248 247 249)
+(code_label 249 248 250 36 27 "" [1 uses])
+(note 250 249 251 36 [bb 36] NOTE_INSN_BASIC_BLOCK)
+(insn 251 250 252 36 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:131 -1
+     (nil))
+(call_insn 252 251 253 36 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:131 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 253 252 254 36 (set (reg:SI 120 [ _106 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:131 -1
+     (nil))
+(insn 254 253 255 36 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 120 [ _106 ])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:131 -1
+     (nil))
+(jump_insn 255 254 256 36 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 260)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:131 -1
+     (nil)
+ -> 260)
+(note 256 255 257 37 [bb 37] NOTE_INSN_BASIC_BLOCK)
+(call_insn 257 256 258 37 (call (mem:QI (symbol_ref:SI ("display_books") [flags 0x43]  <function_decl 06812100 display_books>) [0 display_books S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:132 -1
+     (nil)
+    (nil))
+(jump_insn 258 257 259 37 (set (pc)
+        (label_ref 276)) -1
+     (nil)
+ -> 276)
+(barrier 259 258 260)
+(code_label 260 259 261 38 35 "" [1 uses])
+(note 261 260 262 38 [bb 38] NOTE_INSN_BASIC_BLOCK)
+(insn 262 261 263 38 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:134 -1
+     (nil))
+(call_insn 263 262 264 38 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:134 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 264 263 265 38 (set (reg:SI 121 [ _109 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:134 -1
+     (nil))
+(insn 265 264 266 38 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 121 [ _109 ])
+            (const_int 5 [0x5]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:134 -1
+     (nil))
+(jump_insn 266 265 267 38 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 276)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:134 -1
+     (nil)
+ -> 276)
+(note 267 266 268 39 [bb 39] NOTE_INSN_BASIC_BLOCK)
+(insn 268 267 269 39 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC25") [flags 0x2]  <var_decl 068bc738 *LC25>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:135 -1
+     (nil))
+(call_insn 269 268 270 39 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:135 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 270 269 271 39 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [2 loginMenuChecker+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:136 -1
+     (nil))
+(insn 271 270 272 39 (set (reg/f:SI 122 [ p.10_112 ])
+        (mem/f/c:SI (symbol_ref:SI ("p")  <var_decl 067ce0b0 p>) [1 p+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:137 -1
+     (nil))
+(insn 272 271 273 39 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 122 [ p.10_112 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:137 -1
+     (nil))
+(call_insn 273 272 274 39 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("store_books") [flags 0x43]  <function_decl 06809e00 store_books>) [0 store_books S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:137 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(call_insn 274 273 275 39 (call (mem:QI (symbol_ref:SI ("writeLoans") [flags 0x43]  <function_decl 06812480 writeLoans>) [0 writeLoans S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:138 -1
+     (nil)
+    (nil))
+(insn 275 274 276 39 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 menuChecker+0 S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:139 -1
+     (nil))
+(code_label 276 275 277 40 20 "" [6 uses])
+(note 277 276 279 40 [bb 40] NOTE_INSN_BASIC_BLOCK)
+(insn 279 277 280 40 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -8 [0xfffffffffffffff8])) [2 loginMenuChecker+0 S4 A32])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:82 -1
+     (nil))
+(jump_insn 280 279 283 40 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 278)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:82 -1
+     (nil)
+ -> 278)
+(note 283 280 281 41 [bb 41] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 281 283 282 41 (set (pc)
+        (label_ref:SI 485)) 565 {jump}
+     (nil)
+ -> 485)
+(barrier 282 281 284)
+(code_label 284 282 285 42 19 "" [1 uses])
+(note 285 284 286 42 [bb 42] NOTE_INSN_BASIC_BLOCK)
+(insn 286 285 287 42 (set (reg:SI 123 [ userIndex.11_116 ])
+        (mem/c:SI (symbol_ref:SI ("userIndex") [flags 0x42]  <var_decl 067ce738 userIndex>) [2 userIndex+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:143 -1
+     (nil))
+(insn 287 286 288 42 (set (reg/f:SI 124 [ _117 ])
+        (mem/f:SI (plus:SI (mult:SI (reg:SI 123 [ userIndex.11_116 ])
+                    (const_int 4 [0x4]))
+                (symbol_ref:SI ("users") [flags 0x42]  <var_decl 067ce4d0 users>)) [5 users S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:143 -1
+     (nil))
+(insn 288 287 289 42 (parallel [
+            (set (reg/f:SI 125 [ _118 ])
+                (plus:SI (reg/f:SI 124 [ _117 ])
+                    (const_int 60 [0x3c])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:143 -1
+     (nil))
+(insn 289 288 290 42 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg/f:SI 125 [ _118 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:143 -1
+     (nil))
+(insn 290 289 291 42 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC17") [flags 0x2]  <var_decl 068bc478 *LC17>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:143 -1
+     (nil))
+(call_insn 291 290 292 42 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x43]  <function_decl 0675b700 printf>) [0 __builtin_printf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:143 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(jump_insn 292 291 293 42 (set (pc)
+        (label_ref 472)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:144 -1
+     (nil)
+ -> 472)
+(barrier 293 292 474)
+(code_label 474 293 294 43 52 "" [1 uses])
+(note 294 474 295 43 [bb 43] NOTE_INSN_BASIC_BLOCK)
+(call_insn 295 294 296 43 (call (mem:QI (symbol_ref:SI ("menuStudent") [flags 0x3]  <function_decl 06832e80 menuStudent>) [0 menuStudent S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:145 -1
+     (nil)
+    (nil))
+(insn 296 295 297 43 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:146 -1
+     (nil))
+(insn 297 296 298 43 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:146 -1
+     (nil))
+(call_insn 298 297 299 43 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:146 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 299 298 300 43 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:147 -1
+     (nil))
+(call_insn 300 299 301 43 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:147 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 301 300 302 43 (set (reg:SI 126 [ _123 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:147 -1
+     (nil))
+(insn 302 301 303 43 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 126 [ _123 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:147 -1
+     (nil))
+(jump_insn 303 302 304 43 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 314)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:147 -1
+     (nil)
+ -> 314)
+(note 304 303 305 44 [bb 44] NOTE_INSN_BASIC_BLOCK)
+(call_insn 305 304 306 44 (call (mem:QI (symbol_ref:SI ("display_books") [flags 0x43]  <function_decl 06812100 display_books>) [0 display_books S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:148 -1
+     (nil)
+    (nil))
+(insn 306 305 307 44 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC26") [flags 0x2]  <var_decl 068bc790 *LC26>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:149 -1
+     (nil))
+(call_insn 307 306 308 44 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:149 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 308 307 309 44 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("requestId") [flags 0x2]  <var_decl 067ce478 requestId>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:150 -1
+     (nil))
+(insn 309 308 310 44 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC23") [flags 0x2]  <var_decl 068bc688 *LC23>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:150 -1
+     (nil))
+(call_insn 310 309 311 44 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:150 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(call_insn 311 310 312 44 (call (mem:QI (symbol_ref:SI ("setLoan") [flags 0x43]  <function_decl 06812200 setLoan>) [0 setLoan S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:151 -1
+     (nil)
+    (nil))
+(jump_insn 312 311 313 44 (set (pc)
+        (label_ref 472)) -1
+     (nil)
+ -> 472)
+(barrier 313 312 314)
+(code_label 314 313 315 45 39 "" [1 uses])
+(note 315 314 316 45 [bb 45] NOTE_INSN_BASIC_BLOCK)
+(insn 316 315 317 45 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:152 -1
+     (nil))
+(call_insn 317 316 318 45 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:152 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 318 317 319 45 (set (reg:SI 127 [ _129 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:152 -1
+     (nil))
+(insn 319 318 320 45 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 127 [ _129 ])
+            (const_int 2 [0x2]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:152 -1
+     (nil))
+(jump_insn 320 319 321 45 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 347)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:152 -1
+     (nil)
+ -> 347)
+(note 321 320 322 46 [bb 46] NOTE_INSN_BASIC_BLOCK)
+(insn 322 321 323 46 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC27") [flags 0x2]  <var_decl 068bc7e8 *LC27>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:153 -1
+     (nil))
+(call_insn 323 322 324 46 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:153 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(call_insn 324 323 325 46 (call (mem:QI (symbol_ref:SI ("printLoans") [flags 0x43]  <function_decl 06812500 printLoans>) [0 printLoans S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:154 -1
+     (nil)
+    (nil))
+(insn 325 324 326 46 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC28") [flags 0x2]  <var_decl 068bc840 *LC28>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:155 -1
+     (nil))
+(call_insn 326 325 327 46 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:155 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 327 326 328 46 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("requestId") [flags 0x2]  <var_decl 067ce478 requestId>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:156 -1
+     (nil))
+(insn 328 327 329 46 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC23") [flags 0x2]  <var_decl 068bc688 *LC23>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:156 -1
+     (nil))
+(call_insn 329 328 330 46 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:156 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(call_insn 330 329 331 46 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("returnBook") [flags 0x43]  <function_decl 06812280 returnBook>) [0 returnBook S1 A8])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:157 -1
+     (nil)
+    (nil))
+(insn 331 330 332 46 (set (reg:SI 128 [ _135 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:157 -1
+     (nil))
+(insn 332 331 333 46 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 128 [ _135 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:157 -1
+     (nil))
+(jump_insn 333 332 334 46 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 339)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:157 -1
+     (nil)
+ -> 339)
+(note 334 333 335 47 [bb 47] NOTE_INSN_BASIC_BLOCK)
+(insn 335 334 336 47 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC29") [flags 0x2]  <var_decl 068bc898 *LC29>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:158 -1
+     (nil))
+(call_insn 336 335 337 47 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:158 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 337 336 338 47 (set (pc)
+        (label_ref 343)) -1
+     (nil)
+ -> 343)
+(barrier 338 337 339)
+(code_label 339 338 340 48 41 "" [1 uses])
+(note 340 339 341 48 [bb 48] NOTE_INSN_BASIC_BLOCK)
+(insn 341 340 342 48 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC30") [flags 0x2]  <var_decl 068bc8f0 *LC30>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:160 -1
+     (nil))
+(call_insn 342 341 343 48 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:160 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 343 342 344 49 42 "" [1 uses])
+(note 344 343 345 49 [bb 49] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 345 344 346 49 (set (pc)
+        (label_ref 472)) -1
+     (nil)
+ -> 472)
+(barrier 346 345 347)
+(code_label 347 346 348 50 40 "" [1 uses])
+(note 348 347 349 50 [bb 50] NOTE_INSN_BASIC_BLOCK)
+(insn 349 348 350 50 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:163 -1
+     (nil))
+(call_insn 350 349 351 50 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:163 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 351 350 352 50 (set (reg:SI 129 [ _139 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:163 -1
+     (nil))
+(insn 352 351 353 50 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 129 [ _139 ])
+            (const_int 3 [0x3]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:163 -1
+     (nil))
+(jump_insn 353 352 354 50 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 445)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:163 -1
+     (nil)
+ -> 445)
+(note 354 353 355 51 [bb 51] NOTE_INSN_BASIC_BLOCK)
+(insn 355 354 356 51 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [2 optionLoop+0 S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:164 -1
+     (nil))
+(jump_insn 356 355 357 51 (set (pc)
+        (label_ref 437)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:165 -1
+     (nil)
+ -> 437)
+(barrier 357 356 439)
+(code_label 439 357 358 52 50 "" [1 uses])
+(note 358 439 359 52 [bb 52] NOTE_INSN_BASIC_BLOCK)
+(call_insn 359 358 360 52 (call (mem:QI (symbol_ref:SI ("searchBook") [flags 0x3]  <function_decl 06832e00 searchBook>) [0 searchBook S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:166 -1
+     (nil)
+    (nil))
+(insn 360 359 361 52 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -24 [0xffffffffffffffe8])) [2 searchYear+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:167 -1
+     (nil))
+(insn 361 360 362 52 (set (mem:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:168 -1
+     (nil))
+(insn 362 361 363 52 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC19") [flags 0x2]  <var_decl 068bc528 *LC19>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:168 -1
+     (nil))
+(call_insn 363 362 364 52 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:168 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 364 363 365 52 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:170 -1
+     (nil))
+(call_insn 365 364 366 52 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:170 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 366 365 367 52 (set (reg:SI 130 [ _145 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:170 -1
+     (nil))
+(insn 367 366 368 52 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 130 [ _145 ])
+            (const_int 1 [0x1]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:170 -1
+     (nil))
+(jump_insn 368 367 369 52 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 381)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:170 -1
+     (nil)
+ -> 381)
+(note 369 368 370 53 [bb 53] NOTE_INSN_BASIC_BLOCK)
+(insn 370 369 371 53 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC20") [flags 0x2]  <var_decl 068bc580 *LC20>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:171 -1
+     (nil))
+(call_insn 371 370 372 53 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:171 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 372 371 373 53 (parallel [
+            (set (reg:SI 159)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:172 -1
+     (nil))
+(insn 373 372 374 53 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 159)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:172 -1
+     (nil))
+(insn 374 373 375 53 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:172 -1
+     (nil))
+(call_insn 375 374 376 53 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:172 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 376 375 377 53 (parallel [
+            (set (reg:SI 160)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:173 -1
+     (nil))
+(insn 377 376 378 53 (set (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 160)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:173 -1
+     (nil))
+(call_insn 378 377 379 53 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("find_book_by_title") [flags 0x43]  <function_decl 06809d80 find_book_by_title>) [0 find_book_by_title S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:173 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 379 378 380 53 (set (pc)
+        (label_ref 435)) -1
+     (nil)
+ -> 435)
+(barrier 380 379 381)
+(code_label 381 380 382 54 45 "" [1 uses])
+(note 382 381 383 54 [bb 54] NOTE_INSN_BASIC_BLOCK)
+(insn 383 382 384 54 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:175 -1
+     (nil))
+(call_insn 384 383 385 54 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:175 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 385 384 386 54 (set (reg:SI 131 [ _150 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:175 -1
+     (nil))
+(insn 386 385 387 54 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 131 [ _150 ])
+            (const_int 2 [0x2]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:175 -1
+     (nil))
+(jump_insn 387 386 388 54 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 400)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:175 -1
+     (nil)
+ -> 400)
+(note 388 387 389 55 [bb 55] NOTE_INSN_BASIC_BLOCK)
+(insn 389 388 390 55 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC21") [flags 0x2]  <var_decl 068bc5d8 *LC21>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:176 -1
+     (nil))
+(call_insn 390 389 391 55 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:176 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 391 390 392 55 (parallel [
+            (set (reg:SI 161)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:177 -1
+     (nil))
+(insn 392 391 393 55 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 161)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:177 -1
+     (nil))
+(insn 393 392 394 55 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC15") [flags 0x2]  <var_decl 068bc3c8 *LC15>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:177 -1
+     (nil))
+(call_insn 394 393 395 55 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:177 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 395 394 396 55 (parallel [
+            (set (reg:SI 162)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -64 [0xffffffffffffffc0])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:178 -1
+     (nil))
+(insn 396 395 397 55 (set (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 162)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:178 -1
+     (nil))
+(call_insn 397 396 398 55 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("find_book_by_author") [flags 0x43]  <function_decl 06812000 find_book_by_author>) [0 find_book_by_author S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:178 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 398 397 399 55 (set (pc)
+        (label_ref 435)) -1
+     (nil)
+ -> 435)
+(barrier 399 398 400)
+(code_label 400 399 401 56 47 "" [1 uses])
+(note 401 400 402 56 [bb 56] NOTE_INSN_BASIC_BLOCK)
+(insn 402 401 403 56 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:180 -1
+     (nil))
+(call_insn 403 402 404 56 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:180 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 404 403 405 56 (set (reg:SI 132 [ _155 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:180 -1
+     (nil))
+(insn 405 404 406 56 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 132 [ _155 ])
+            (const_int 3 [0x3]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:180 -1
+     (nil))
+(jump_insn 406 405 407 56 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 420)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:180 -1
+     (nil)
+ -> 420)
+(note 407 406 408 57 [bb 57] NOTE_INSN_BASIC_BLOCK)
+(insn 408 407 409 57 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC22") [flags 0x2]  <var_decl 068bc630 *LC22>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:181 -1
+     (nil))
+(call_insn 409 408 410 57 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:181 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 410 409 411 57 (parallel [
+            (set (reg:SI 163)
+                (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -24 [0xffffffffffffffe8])))
+            (clobber (reg:CC 17 flags))
+        ]) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:182 -1
+     (nil))
+(insn 411 410 412 57 (set (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                (const_int 4 [0x4])) [0  S4 A32])
+        (reg:SI 163)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:182 -1
+     (nil))
+(insn 412 411 413 57 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC23") [flags 0x2]  <var_decl 068bc688 *LC23>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:182 -1
+     (nil))
+(call_insn 413 412 414 57 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("scanf") [flags 0x43]  <function_decl 0675bd00 scanf>) [0 __builtin_scanf S1 A8])
+            (const_int 8 [0x8]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:182 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (expr_list:SI (use (mem/f:SI (plus:SI (reg/f:SI 84 virtual-outgoing-args)
+                        (const_int 4 [0x4])) [0  S4 A32]))
+            (nil))))
+(insn 414 413 415 57 (set (reg:SI 133 [ searchYear.12_158 ])
+        (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -24 [0xffffffffffffffe8])) [2 searchYear+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:183 -1
+     (nil))
+(insn 415 414 416 57 (set (reg:SI 134 [ searchYear.13_159 ])
+        (reg:SI 133 [ searchYear.12_158 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:183 -1
+     (nil))
+(insn 416 415 417 57 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg:SI 134 [ searchYear.13_159 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:183 -1
+     (nil))
+(call_insn 417 416 418 57 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("find_book_by_year") [flags 0x43]  <function_decl 06812080 find_book_by_year>) [0 find_book_by_year S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:183 -1
+     (nil)
+    (expr_list:SI (use (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(jump_insn 418 417 419 57 (set (pc)
+        (label_ref 435)) -1
+     (nil)
+ -> 435)
+(barrier 419 418 420)
+(code_label 420 419 421 58 48 "" [1 uses])
+(note 421 420 422 58 [bb 58] NOTE_INSN_BASIC_BLOCK)
+(insn 422 421 423 58 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:185 -1
+     (nil))
+(call_insn 423 422 424 58 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:185 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 424 423 425 58 (set (reg:SI 135 [ _162 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:185 -1
+     (nil))
+(insn 425 424 426 58 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 135 [ _162 ])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:185 -1
+     (nil))
+(jump_insn 426 425 427 58 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 431)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:185 -1
+     (nil)
+ -> 431)
+(note 427 426 428 59 [bb 59] NOTE_INSN_BASIC_BLOCK)
+(insn 428 427 429 59 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -16 [0xfffffffffffffff0])) [2 optionLoop+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:186 -1
+     (nil))
+(jump_insn 429 428 430 59 (set (pc)
+        (label_ref 435)) -1
+     (nil)
+ -> 435)
+(barrier 430 429 431)
+(code_label 431 430 432 60 49 "" [1 uses])
+(note 432 431 433 60 [bb 60] NOTE_INSN_BASIC_BLOCK)
+(insn 433 432 434 60 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC24") [flags 0x2]  <var_decl 068bc6e0 *LC24>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:188 -1
+     (nil))
+(call_insn 434 433 435 60 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:188 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 435 434 436 61 46 "" [4 uses])
+(note 436 435 437 61 [bb 61] NOTE_INSN_BASIC_BLOCK)
+(code_label 437 436 438 62 44 "" [1 uses])
+(note 438 437 440 62 [bb 62] NOTE_INSN_BASIC_BLOCK)
+(insn 440 438 441 62 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -16 [0xfffffffffffffff0])) [2 optionLoop+0 S4 A32])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:165 -1
+     (nil))
+(jump_insn 441 440 442 62 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 439)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:165 -1
+     (nil)
+ -> 439)
+(note 442 441 443 63 [bb 63] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 443 442 444 63 (set (pc)
+        (label_ref 472)) -1
+     (nil)
+ -> 472)
+(barrier 444 443 445)
+(code_label 445 444 446 64 43 "" [1 uses])
+(note 446 445 447 64 [bb 64] NOTE_INSN_BASIC_BLOCK)
+(insn 447 446 448 64 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:191 -1
+     (nil))
+(call_insn 448 447 449 64 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:191 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 449 448 450 64 (set (reg:SI 136 [ _168 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:191 -1
+     (nil))
+(insn 450 449 451 64 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 136 [ _168 ])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:191 -1
+     (nil))
+(jump_insn 451 450 452 64 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 456)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:191 -1
+     (nil)
+ -> 456)
+(note 452 451 453 65 [bb 65] NOTE_INSN_BASIC_BLOCK)
+(call_insn 453 452 454 65 (call (mem:QI (symbol_ref:SI ("display_books") [flags 0x43]  <function_decl 06812100 display_books>) [0 display_books S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:192 -1
+     (nil)
+    (nil))
+(jump_insn 454 453 455 65 (set (pc)
+        (label_ref 472)) -1
+     (nil)
+ -> 472)
+(barrier 455 454 456)
+(code_label 456 455 457 66 51 "" [1 uses])
+(note 457 456 458 66 [bb 66] NOTE_INSN_BASIC_BLOCK)
+(insn 458 457 459 66 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:194 -1
+     (nil))
+(call_insn 459 458 460 66 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:194 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 460 459 461 66 (set (reg:SI 137 [ _171 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:194 -1
+     (nil))
+(insn 461 460 462 66 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 137 [ _171 ])
+            (const_int 5 [0x5]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:194 -1
+     (nil))
+(jump_insn 462 461 463 66 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 472)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:194 -1
+     (nil)
+ -> 472)
+(note 463 462 464 67 [bb 67] NOTE_INSN_BASIC_BLOCK)
+(insn 464 463 465 67 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC25") [flags 0x2]  <var_decl 068bc738 *LC25>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:195 -1
+     (nil))
+(call_insn 465 464 466 67 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:195 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 466 465 467 67 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [2 loginMenuChecker+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:196 -1
+     (nil))
+(insn 467 466 468 67 (set (reg/f:SI 138 [ p.14_174 ])
+        (mem/f/c:SI (symbol_ref:SI ("p")  <var_decl 067ce0b0 p>) [1 p+0 S4 A32])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:197 -1
+     (nil))
+(insn 468 467 469 67 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (reg/f:SI 138 [ p.14_174 ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:197 -1
+     (nil))
+(call_insn 469 468 470 67 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("store_books") [flags 0x43]  <function_decl 06809e00 store_books>) [0 store_books S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:197 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(call_insn 470 469 471 67 (call (mem:QI (symbol_ref:SI ("writeLoans") [flags 0x43]  <function_decl 06812480 writeLoans>) [0 writeLoans S1 A8])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:198 -1
+     (nil)
+    (nil))
+(insn 471 470 472 67 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 menuChecker+0 S4 A32])
+        (const_int 1 [0x1])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:199 -1
+     (nil))
+(code_label 472 471 473 68 38 "" [6 uses])
+(note 473 472 475 68 [bb 68] NOTE_INSN_BASIC_BLOCK)
+(insn 475 473 476 68 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -8 [0xfffffffffffffff8])) [2 loginMenuChecker+0 S4 A32])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:144 -1
+     (nil))
+(jump_insn 476 475 478 68 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 474)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:144 -1
+     (nil)
+ -> 474)
+(note 478 476 479 69 [bb 69] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 479 478 480 69 (set (pc)
+        (label_ref 485)) -1
+     (nil)
+ -> 485)
+(barrier 480 479 481)
+(code_label 481 480 482 70 18 "" [1 uses])
+(note 482 481 483 70 [bb 70] NOTE_INSN_BASIC_BLOCK)
+(insn 483 482 484 70 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC31") [flags 0x2]  <var_decl 068bc948 *LC31>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:204 -1
+     (nil))
+(call_insn 484 483 485 70 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:204 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 485 484 486 71 53 "" [2 uses])
+(note 486 485 487 71 [bb 71] NOTE_INSN_BASIC_BLOCK)
+(jump_insn 487 486 488 71 (set (pc)
+        (label_ref 515)) -1
+     (nil)
+ -> 515)
+(barrier 488 487 489)
+(code_label 489 488 490 72 17 "" [1 uses])
+(note 490 489 491 72 [bb 72] NOTE_INSN_BASIC_BLOCK)
+(insn 491 490 492 72 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:206 -1
+     (nil))
+(call_insn 492 491 493 72 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:206 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 493 492 494 72 (set (reg:SI 139 [ _180 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:206 -1
+     (nil))
+(insn 494 493 495 72 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 139 [ _180 ])
+            (const_int 3 [0x3]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:206 -1
+     (nil))
+(jump_insn 495 494 496 72 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 505)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:206 -1
+     (nil)
+ -> 505)
+(note 496 495 497 73 [bb 73] NOTE_INSN_BASIC_BLOCK)
+(insn 497 496 498 73 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC32") [flags 0x2]  <var_decl 068bc9a0 *LC32>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:208 -1
+     (nil))
+(call_insn 498 497 499 73 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:208 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 499 498 500 73 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC33") [flags 0x2]  <var_decl 068bc9f8 *LC33>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:209 -1
+     (nil))
+(call_insn 500 499 501 73 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("printf") [flags 0x43]  <function_decl 0675b700 printf>) [0 __builtin_printf S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:209 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 501 500 502 73 (set (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                (const_int -4 [0xfffffffffffffffc])) [2 menuChecker+0 S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:210 -1
+     (nil))
+(insn 502 501 503 73 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (const_int 0 [0])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:211 -1
+     (nil))
+(call_insn 503 502 504 73 (call (mem:QI (symbol_ref:SI ("exit") [flags 0x43]  <function_decl 06769980 exit>) [0 __builtin_exit S1 A8])
+        (const_int 4 [0x4])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:211 -1
+     (expr_list:REG_NORETURN (const_int 0 [0])
+        (expr_list:REG_EH_REGION (const_int 0 [0])
+            (nil)))
+    (expr_list:SI (use (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(barrier 504 503 505)
+(code_label 505 504 506 74 54 "" [1 uses])
+(note 506 505 507 74 [bb 74] NOTE_INSN_BASIC_BLOCK)
+(insn 507 506 508 74 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref:SI ("next")  <var_decl 067ceb00 next>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:212 -1
+     (nil))
+(call_insn 508 507 509 74 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("inputChecker") [flags 0x3]  <function_decl 06832f00 inputChecker>) [0 inputChecker S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:212 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(insn 509 508 510 74 (set (reg:SI 140 [ _182 ])
+        (reg:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:212 -1
+     (nil))
+(insn 510 509 511 74 (set (reg:CCZ 17 flags)
+        (compare:CCZ (reg:SI 140 [ _182 ])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:212 -1
+     (nil))
+(jump_insn 511 510 512 74 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 515)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:212 -1
+     (nil)
+ -> 515)
+(note 512 511 513 75 [bb 75] NOTE_INSN_BASIC_BLOCK)
+(insn 513 512 514 75 (set (mem:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32])
+        (symbol_ref/f:SI ("*LC34") [flags 0x2]  <var_decl 068bca50 *LC34>)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:213 -1
+     (nil))
+(call_insn 514 513 515 75 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:SI ("puts") [flags 0x43]  <function_decl 0675ba80 __builtin_puts>) [0 __builtin_puts S1 A8])
+            (const_int 4 [0x4]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:213 -1
+     (nil)
+    (expr_list:SI (use (mem/f:SI (reg/f:SI 84 virtual-outgoing-args) [0  S4 A32]))
+        (nil)))
+(code_label 515 514 516 76 14 "" [4 uses])
+(note 516 515 518 76 [bb 76] NOTE_INSN_BASIC_BLOCK)
+(insn 518 516 519 76 (set (reg:CCZ 17 flags)
+        (compare:CCZ (mem/c:SI (plus:SI (reg/f:SI 82 virtual-stack-vars)
+                    (const_int -4 [0xfffffffffffffffc])) [2 menuChecker+0 S4 A32])
+            (const_int 0 [0]))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:68 -1
+     (nil))
+(jump_insn 519 518 520 76 (set (pc)
+        (if_then_else (ne (reg:CCZ 17 flags)
+                (const_int 0 [0]))
+            (label_ref 517)
+            (pc))) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:68 -1
+     (nil)
+ -> 517)
+(note 520 519 521 77 [bb 77] NOTE_INSN_BASIC_BLOCK)
+(insn 521 520 524 77 (set (reg:SI 141 [ _188 ])
+        (const_int 0 [0])) <built-in>:0 -1
+     (nil))
+(insn 524 521 528 77 (set (reg:SI 142 [ <retval> ])
+        (reg:SI 141 [ _188 ])) <built-in>:0 -1
+     (nil))
+(insn 528 524 529 77 (set (reg/i:SI 0 ax)
+        (reg:SI 142 [ <retval> ])) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:217 -1
+     (nil))
+(insn 529 528 0 77 (use (reg/i:SI 0 ax)) C:\Users\Danie\Documents\UOL CS\Year 1\Semester 2\Programming Project\CW1\main.c:217 -1
+     (nil))
