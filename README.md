@@ -1,2 +1,2 @@
 # Library-Management-C
-A simple GUI implementation of a library system
+A simple CLI implementation of a library system
